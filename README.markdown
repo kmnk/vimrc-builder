@@ -51,12 +51,6 @@ Simple make commands are prepared.
 - [unite-outline][]
 
 
-## SEE ALSO
-
-
-## TODO
-
-
 [neobundle.vim]:         https://github.com/Shougo/neobundle.vim
 [unite.vim]:             https://github.com/Shougo/unite.vim
 [vimproc]:               https://github.com/Shougo/vimproc
