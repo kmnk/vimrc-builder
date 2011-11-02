@@ -3,7 +3,8 @@ if globpath(&rtp, 'plugin/unite.vim') == ''
   finish
 endif
 
-let g:unite_split_rule  = 'botright'
+let g:unite_split_rule = 'botright'
+let g:unite_enable_start_insert = 1
 
 " unite prefix key
 nnoremap [unite] <Nop>
@@ -35,7 +36,6 @@ nmap [unite]Nbin  <SID>(neobundle-install-indivisually)
 nmap [unite]nbin! <SID>(neobundle-install!)
 "}}}
 
-" mapped commands {{{
 " on unite buffer setting
 autocmd VimrcAutoCmd FileType unite call s:unite_settings()
 function! s:unite_settings()"{{{
@@ -43,10 +43,9 @@ function! s:unite_settings()"{{{
   imap <buffer> jj    <Plug>(unite_insert_leave)
   imap <buffer> <C-w> <Plug>(unite_delete_backward_path)
   imap <buffer> qq    <Plug>(unite_exit)
-
-  let g:unite_enable_start_insert = 1
 endfunction"}}}
 
+" mapped commands {{{
 " files {{{
 nnoremap <silent> <SID>(normally)           :<C-u>Unite -buffer-name=files file file_rec buffer<CR>
 nnoremap <silent> <SID>(current-buffer-dir) :<C-u>UniteWithBufferDir -buffer-name=files -prompt=buffer_dir> file buffer file_rec<CR>
