@@ -1,8 +1,8 @@
 # vimrc-builder
 
-*Simple vim setting builder using [neobundle.vim][]*
+*Simple vim-setting builder using [neobundle.vim][]*
 
-Fork this repository and customize for yourself.
+customize for yourself
 
 ## Product Requirements
 
