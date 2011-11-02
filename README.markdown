@@ -41,7 +41,7 @@ Simple make commands prepared.
 - [neocomplcache][]
 - [vim-surround][]
 - [vim-textobj-indent][]
-- [vim-textobj-user][]]]
+- [vim-textobj-user][]
 - [vim-operator-replace][]
 - [vim-operator-user][]
 - [vim-unite-history][]
