@@ -4,7 +4,7 @@ execute 'set runtimepath+=' . s:local_dot_vim_dir_path
 
 " initial settings
 " my mapleader
-let mapleader = ','
+let mapleader = ' '
 
 " favorite color theme
 colorscheme elflord
