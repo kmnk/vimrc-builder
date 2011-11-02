@@ -7,7 +7,7 @@ execute 'set runtimepath+=' . s:local_dot_vim_dir_path
 let mapleader = ','
 
 " favorite color theme
-colorscheme lucius
+colorscheme elflord
 
 " local settings
 let s:profiles_dir_path = expand('<sfile>:h:h') . '/vim/profiles/'
