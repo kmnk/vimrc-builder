@@ -9,10 +9,10 @@ endif
 "}}}
 
 " align settings {{{
-let g:Align_xstrlen=3
 if globpath(&rtp, 'plugin/AlignPlugin.vim') != ''
-  vmap <Leader>al <SID>(setup-alignta)
-  vnoremap <SID>(setup-alignta) :Align
+  let g:Align_xstrlen=3
+  vmap <Leader>al <SID>(setup-align)
+  vnoremap <SID>(setup-align) :Align
 endif
 "}}}
 
