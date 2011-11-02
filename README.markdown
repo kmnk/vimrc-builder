@@ -11,7 +11,7 @@ git and Vim >= 7.3
 
 ## Usage
 
-Simple make commands prepared.
+Simple make commands are prepared.
 
 ### Build
 
