@@ -3,18 +3,18 @@ let s:local_dot_vim_dir_path = expand('<sfile>:h:h') . '/vim/dot.vim'
 execute 'set runtimepath+=' . s:local_dot_vim_dir_path
 
 " initial settings
-" my mapleader
+" my mapleader (default space)
 let mapleader = ' '
 
 " favorite color theme
-colorscheme elflord
+colorscheme default
 
 " local settings
 let s:profiles_dir_path = expand('<sfile>:h:h') . '/vim/profiles/'
 let s:profile_names = [
 \ 'default',
-\ 'unite',
-\ 'plugins'
+"\ 'unite',
+"\ 'plugins'
 \]
 
 " get ready (no need for editing) {{{
