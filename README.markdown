@@ -15,6 +15,22 @@ Simple make commands are prepared.
 
 ### Build
 
+If you already have neobundle.vim and ~/.bundle directory, you input following command
+
+    $ make vim-install-plugins
+
+and
+
+    $ make vim-make-vimproc-linux
+
+or
+
+    $ make vim-make-vimproc-mac
+
+
+If you don't have neobundle.vim or don't use ~/.bundle directory, you can use prepared simple command at first.
+
+
 #### on Linux
 
     $ git clone git://github.com/kmnk/vimrc-builder.git

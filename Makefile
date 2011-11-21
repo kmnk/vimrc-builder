@@ -7,14 +7,11 @@ mac: vim-setup vim-make-vimproc-mac
 
 windows: vim-setup
 
-vim-setup: vim-install-bundle vim-install-defplugins
+vim-setup: vim-install-bundle vim-install-plugins
 
 vim-install-bundle:
 	mkdir -p ~/.bundle
 	git clone git://github.com/Shougo/neobundle.vim.git ~/.bundle/neobundle.vim
-
-vim-install-defplugins:
-	vim -u ./vim/profiles/bundles.vim +NeoBundleInstall +q
 
 vim-make-vimproc-linux:
 	cd ~/.bundle/vimproc/ && make -f make_gcc.mak
