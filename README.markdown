@@ -99,6 +99,5 @@ or add following line to your vimrc.
 [vim-operator-user]:     https://github.com/kana/vim-operator-user
 [vim-unite-history]:     https://github.com/thinca/vim-unite-history
 [unite-grep]:            https://github.com/Sixeight/unite-grep
-[current-func-info.vim]: https://github.com/tyru/current-func-info.vim
 [unite-mark]:            https://github.com/tacroe/unite-mark
 [unite-outline]:         https://github.com/h1mesuke/unite-outline

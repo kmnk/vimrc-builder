@@ -28,8 +28,6 @@ NeoBundle 'git://github.com/thinca/vim-unite-history.git'
 
 NeoBundle 'git://github.com/Sixeight/unite-grep.git'
 
-NeoBundle 'git://github.com/tyru/current-func-info.vim.git'
-
 NeoBundle 'git://github.com/tacroe/unite-mark.git'
 
 NeoBundle 'git://github.com/h1mesuke/unite-outline.git'
