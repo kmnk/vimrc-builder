@@ -27,6 +27,16 @@ Simple make commands are prepared.
     $ cd vimrc-builder
     $ make mac
 
+### Use
+
+Input following command on vimrc-builder directory to use on sample setting
+
+    $ vim -u ./dotfiles/dot.vimrc
+
+or add following line to your vimrc.
+
+    source /path/to/vimrc-builder/dotfiles/dot.vimrc
+
 
 ### Install added vim-plugins
 
