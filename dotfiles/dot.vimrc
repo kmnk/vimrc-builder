@@ -1,13 +1,15 @@
-" set runtimepath to local .vim
-let s:local_dot_vim_dir_path = expand('<sfile>:h:h') . '/vim/dot.vim'
-execute 'set runtimepath+=' . s:local_dot_vim_dir_path
-
-" initial settings
+" initial settings (edit for yourself){{{
 " your mapleader (default '\')
 "let mapleader = ' '
 
 " your favorite color theme (default 'default')
-"colorscheme default
+"colorscheme elflord
+"}}}
+
+" setup sample settings{{{
+" add local .vim directory to runtimepath
+let s:local_dot_vim_dir_path = expand('<sfile>:h:h') . '/vim/dot.vim'
+execute 'set runtimepath+=' . s:local_dot_vim_dir_path
 
 " local settings
 let s:profiles_dir_path = expand('<sfile>:h:h') . '/vim/profiles/'
@@ -38,6 +40,7 @@ augroup END
 
 " source bundles at first
 call s:source_profile('bundles')
+" source sample profiles
 call s:source_profiles(s:profile_names)
 
 " source local settings at last
@@ -45,3 +48,5 @@ let g:path_to_vimrc_profile = '~/.vimrc_profile'
 if filereadable(expand(g:path_to_vimrc_profile))
   execute printf('source %s', expand(g:path_to_vimrc_profile))
 endif
+"}}}
+" vim: foldmethod=marker
