@@ -2,7 +2,7 @@
 
 *Simple vim-setting builder using [neobundle.vim][]*
 
-customize for yourself
+customize or copy for yourself
 
 ## Product Requirements
 
@@ -15,9 +15,17 @@ Simple make commands are prepared.
 
 ### Build
 
+#### on Linux
+
     $ git clone git://github.com/kmnk/vimrc-builder.git
     $ cd vimrc-builder
-    $ make
+    $ make linux
+
+#### on Mac
+
+    $ git clone git://github.com/kmnk/vimrc-builder.git
+    $ cd vimrc-builder
+    $ make mac
 
 
 ### Install added vim-plugins

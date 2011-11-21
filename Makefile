@@ -19,7 +19,7 @@ vim-install-defplugins:
 vim-make-vimproc-linux:
 	cd ~/.bundle/vimproc/ && make -f make_gcc.mak
 
-vim-make-vimproc-linux:
+vim-make-vimproc-mac:
 	cd ~/.bundle/vimproc/ && make -f make_mac.mak
 
 install: vim-install-plugins
