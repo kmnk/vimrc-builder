@@ -73,7 +73,7 @@ Edit dotfiles/dot.vimrc and read following sample setting files.
 - vim/profiles/plugins.vim
 - vim/profiles/unite.vim
 
-If you want to use neobundle.vim like sample setting, copy all lines of vim/profiles/bundles.vim to top of your vimrc file.
+For example, if you want to use neobundle.vim like sample setting, copy all lines of vim/profiles/bundles.vim to top of your vimrc file.
 
 
 ## Default Installing Plugins
