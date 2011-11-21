@@ -1,21 +1,26 @@
 # Makefile
-.PHONY: all install update clean
+.PHONY: linux mac windows vim-setup install update clean
 
-all: vim-install linux
+linux: vim-setup vim-make-vimproc-linux
 
-linux:
-	echo 'source '`pwd`'/dotfiles/dot.vimrc' >> ~/.vimrc
+mac: vim-setup vim-make-vimproc-mac
 
+windows: vim-setup
 
-windows:
+vim-setup: vim-install-bundle vim-install-defplugins
 
-
-vim-install:
+vim-install-bundle:
 	mkdir -p ~/.bundle
 	git clone git://github.com/Shougo/neobundle.vim.git ~/.bundle/neobundle.vim
+
+vim-install-defplugins:
 	vim -u ./vim/profiles/bundles.vim +NeoBundleInstall +q
+
+vim-make-vimproc-linux:
 	cd ~/.bundle/vimproc/ && make -f make_gcc.mak
 
+vim-make-vimproc-linux:
+	cd ~/.bundle/vimproc/ && make -f make_mac.mak
 
 install: vim-install-plugins
 
