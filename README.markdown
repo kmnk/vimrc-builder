@@ -2,7 +2,7 @@
 
 *Simple vim-setting builder using [neobundle.vim][]*
 
-customize or copy for yourself
+Customize or copy sample settings for yourself.
 
 ## Product Requirements
 
@@ -62,6 +62,18 @@ or add following line to your vimrc.
 ### Update vim-plugins
 
     $ make update
+
+
+## Customize
+
+Edit dotfiles/dot.vimrc and read following sample setting files.
+
+- vim/profiles/bundles.vim
+- vim/profiles/default.vim
+- vim/profiles/plugins.vim
+- vim/profiles/unite.vim
+
+If you want to use neobundle.vim like sample setting, copy all lines of vim/profiles/bundles.vim to top of your vimrc file.
 
 
 ## Default Installing Plugins
