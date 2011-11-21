@@ -1,3 +1,7 @@
+" add local .vim directory to runtimepath
+let s:local_dot_vim_dir_path = expand('<sfile>:h:h') . '/vim/dot.vim'
+execute 'set runtimepath+=' . s:local_dot_vim_dir_path
+
 " initial settings (edit for yourself){{{
 " your mapleader (default '\')
 "let mapleader = ' '
@@ -7,10 +11,6 @@
 "}}}
 
 " setup sample settings{{{
-" add local .vim directory to runtimepath
-let s:local_dot_vim_dir_path = expand('<sfile>:h:h') . '/vim/dot.vim'
-execute 'set runtimepath+=' . s:local_dot_vim_dir_path
-
 " local settings
 let s:profiles_dir_path = expand('<sfile>:h:h') . '/vim/profiles/'
 let s:profile_names = [ 'bundles', 'default', 'unite', 'plugins' ]
