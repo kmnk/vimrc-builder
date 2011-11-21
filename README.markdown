@@ -80,7 +80,6 @@ or add following line to your vimrc.
 - [vim-operator-user][]
 - [vim-unite-history][]
 - [unite-grep][]
-- [current-func-info.vim][]
 - [unite-mark][]
 - [unite-outline][]
 
